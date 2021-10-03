@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Personal Profile</legend>
+        <label for="firstname">Firstname</label> <br>
+        <input type="text" name="Firstname" id="firstname" placeholder="Write your Firstname" value="First name" autofocus required><br>
+        <label for="Lastname">Lastname</label> <br>
+        <input type="text" name="Lastname" id="Lastname" placeholder="Write your Lastname" value="Lastname" required><br>
+        <label for="Email">Email</label> <br>
+        <input type="text" name="Email" id="Email" placeholder="Write your Email" value="Email"> <br>
+        <label for="Phonenumber">Phonenumber</label> <br>
+        <input type="number" name="Phonenumber" id="Phonenumber" placeholder="Phone number" value="">
+        </select><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Sex</legend>
+        <input type="radio" name="Gender">
+        <label for="Male">Male</label><br>
+        <input type="radio" name="Gender">
+        <label for="Female">Female</label><br>
+    </fieldset><br>
+        <fieldset>
+            <legend>Date Of Birth</legend>
+        <label for="DOB">Choose you Birthday</label><br>
+        <input type="date"><br><br>  
+    </fieldset> 
+                
+        <input type="submit" value="Next">
+        <input type="reset">
+
+    </fieldset>
+    <fieldset>
+        <legend>Biography</legend>
+
+        <label>Describe Yourself</label><br>
+        <textarea name="Describe" placeholder="Write about yourself" rows="20" cols="120" style="width: 1000px;border-radius: 10px; color: brown; border-style:ridge; border-color: rgb(238, 12, 12); border-width: 5px;" ></textarea><br><br> 
+        
+    </fieldset>
+    
+
+        
+    </form>
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50">
+        100+
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output><br><br>
+        <input type="password"><br><br>
+        <input type="submit" value="Submit"> 
+
+    </form>
+</body>
+    
+</body>
+</html>
